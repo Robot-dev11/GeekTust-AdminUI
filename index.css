@@ -1,0 +1,80 @@
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+}
+
+input[type="text"] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.search {
+    padding: 10px;
+}
+
+
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.pagination {
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+  
+.pagination button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
+.pagination button:hover {
+    background-color: #45a049;
+}
+  
+.page-number {
+    margin: 0 10px;
+}
+
+
+
+
+.tab {
+    display: flex;
+}
+
+.deleteButton {
+    justify-content: left;
+    background-color: red;
+}
+  
